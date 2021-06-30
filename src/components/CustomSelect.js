@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 
+// To build the option tags, you looped through the data set via props to construct it before rendering it as part of the select tag.
 function CustomSelect(props) {
   const [data] = useState(props.data);
   const [selectedData, updateSelectedData] = useState("");
