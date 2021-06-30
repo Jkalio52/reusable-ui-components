@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 
 
+// A FormInput() component receives an input type to determine what type of input element to render (email, text, etc). It also takes in a method onChange() to receive the value sent back out from the input.
 function FormInput(props) {
    const [inputType] = useState(props.type);
    const [inputValue, setInputValue] = useState("");
