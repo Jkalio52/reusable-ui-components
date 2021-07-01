@@ -15,10 +15,10 @@ function Modal(props) {
   const [show, setShow] = useState(props.show);
 
   useEffect(() => {
-    setTimeout(() => {
-      setShow(false);
-    }, 3000);
-  });
+      setTimeout(() => {
+         setShow(false);
+      }, 3000);
+   });
 
   return (
       <div className={show ? "modal display-block" : "modal display-none"}>
