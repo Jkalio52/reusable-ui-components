@@ -21,10 +21,10 @@ function Modal(props) {
   });
 
   return (
-    <div className={show ? "modal display-block" : "modal display-none"}>
-      <section className="modal-main">{message}</section>
-    </div>
-  );
+      <div className={show ? "modal display-block" : "modal display-none"}>
+         <section className="modal-main">{message}</section>
+      </div>
+   );
 }
 
 export default Modal;
