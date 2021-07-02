@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 function ToggleSwitch(props) {
   const [checked, setChecked] = useState(props.defaultChecked);
   const [Text] = useState(props.Text);
