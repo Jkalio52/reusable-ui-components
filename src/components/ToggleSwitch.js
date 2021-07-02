@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 
+// A toggle component is used in situations where a true or false answer is necessary. It is an essential form component.
 function ToggleSwitch(props) {
    const [checked, setChecked] = useState(props.defaultChecked);
    const [Text] = useState(props.Text);
