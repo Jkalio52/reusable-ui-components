@@ -34,7 +34,10 @@ function ToggleSwitch(props) {
          onChange={onChange}
          />
          {props.id ? (
-         <label className="toggle-switch-label" htmlFor={props.id}>
+         <label 
+         className="toggle-switch-label" 
+         htmlFor={props.id}
+         >
             <span
                className={
                props.disabled
