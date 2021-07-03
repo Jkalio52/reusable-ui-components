@@ -26,12 +26,12 @@ function ToggleSwitch(props) {
    return (
       <div className={"toggle toggle-switch"}>
          <input
-         type="checkbox"
-         name={props.Name}
-         className="toggle-switch-checkbox"
-         id={props.id}
-         defaultChecked={checked}
-         onChange={onChange}
+            type="checkbox"
+            name={props.Name}
+            className="toggle-switch-checkbox"
+            id={props.id}
+            defaultChecked={checked}
+            onChange={onChange}
          />
          {props.id ? (
          <label 
