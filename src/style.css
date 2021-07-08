@@ -4,17 +4,21 @@
    margin-top: 200px;
    padding-bottom: 20px;
 }
+
 .inputclass {
-padding: 5px;
-margin: 10px;
+   padding: 5px;
+   margin: 10px;
 }
+
 .custom-search-select {
-padding: 5px;
-margin: 10px;
+   padding: 5px;
+   margin: 10px;
 }
+
 .toggle {
 margin: 10px;
 }
+
 button {
 padding: 10px 20px;
 border-radius: 5px;
@@ -39,6 +43,7 @@ color: #fff;
 background-color: #db4437;
 color: #fff;
 }
+
 .btn-primary {
 background-color: #4285f4;
 padding: 5px;
@@ -83,9 +88,11 @@ vertical-align: middle;
 -ms-user-select: none;
 text-align: left;
 }
+
 .toggle-switch-checkbox {
 display: none;
 }
+
 .toggle-switch-label {
 display: block;
 overflow: hidden;
@@ -94,12 +101,14 @@ border: 0 solid #ccc;
 border-radius: 20px;
 margin: 0;
 }
+
 .toggle-switch-inner {
 display: block;
 width: 200%;
 margin-left: -100%;
 transition: margin 0.3s ease-in 0s;
 }
+
 .toggle-switch-inner:before,
 .toggle-switch-inner:after {
 display: block;
@@ -113,6 +122,7 @@ color: white;
 font-weight: bold;
 box-sizing: border-box;
 }
+
 .toggle-switch-inner:before {
 content: attr(data-yes);
 text-transform: uppercase;
@@ -120,14 +130,17 @@ padding-left: 10px;
 background-color: #f90;
 color: #fff;
 }
+
 .toggle-switch-disabled {
 background-color: #ccc;
 cursor: not-allowed;
 }
+
 .toggle-switch-disabled:before {
 background-color: #ccc;
 cursor: not-allowed;
 }
+
 .toggle-switch-inner:after {
 content: attr(data-no);
 text-transform: uppercase;
@@ -136,6 +149,7 @@ background-color: #ccc;
 color: #fff;
 text-align: right;
 }
+
 .toggle-switch-switch {
 display: block;
 width: 24px;
@@ -149,36 +163,45 @@ border: 0 solid #ccc;
 border-radius: 20px;
 transition: all 0.3s ease-in 0s;
 }
+
 .toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-inner {
 margin-left: 0;
 }
+
 .toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-switch {
 right: 0px;
 }
+
 .toggle-switch.small-switch {
 width: 40px;
 }
+
 .toggle-switch.small-switch .toggle-switch-inner:after,
 .toggle-switch.small-switch .toggle-switch-inner:before {
 content: "";
 height: 20px;
 line-height: 20px;
 }
+
 .toggle-switch.small-switch .toggle-switch-switch {
 width: 16px;
 right: 20px;
 margin: 2px;
 }
+
+/* Responsive settings */
 @media screen and (max-width: 991px) {
 .toggle-switch {
    transform: scale(0.9);
 }
 }
+
 @media screen and (max-width: 767px) {
 .toggle-switch {
    transform: scale(0.825);
 }
 }
+
 @media screen and (max-width: 575px) {
 .toggle-switch {
    transform: scale(0.75);
