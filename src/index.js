@@ -4,6 +4,7 @@ import FormInput from "../components/FormInput.js";
 import CustomSelect from "../components/CustomSelect.js";
 import ToggleSwitch from "../components/ToggleSwitch.js";
 import Button from "../components/Button.js";
+import Modal from "../components/Modal.js";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
